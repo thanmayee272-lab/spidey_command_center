@@ -35,7 +35,6 @@ def main() -> None:
         state = game_state(board)
         if state != "in progress":
             print()
-            print(render(board))
             print(state)
             break
         if mark == "X":
